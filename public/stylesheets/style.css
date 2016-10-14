@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+
+.inner-addon .ph {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+
+.left-addon .ph  { left:  0px;}
+.right-addon .ph { right: 0px;}
+
+
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.ph.usa{
+    background-image:url("/public/images/us.png");
+}
+.ph.in{
+    background-image:url("/public/images/in.png");
+}
+.ph.eu{
+    background-image:url("/public/images/eu.jpg");
+}
+.ph.sa{
+    background-image:url("/public/images/sa.png");
+}
+.ph.ch{
+    background-image:url("/public/images/ch.png");
+}
+.ph.au{
+    background-image:url("/public/images/au.jpg");
+}
+
+

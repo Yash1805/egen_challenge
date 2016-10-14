@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phone Format Filter</title>
+    <link rel="stylesheet" href="/public/stylesheets/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+  	<script src="/views/phoneFilter.js"></script>
+	
+  </head>
+  <body ng-app="phoneFormat" ng-controller="phoneFormatController">
+  
+  	<div class="container">
+  		<div class="row">
+	    	<h3>Phone Number Format</h3>
+  			<div class="col-sm-4">
+
+			    <form>
+				    <div class="form-group">
+				    	<div class="inner-addon left-addon">
+				    		<i class="ph {{phone | phFormat}}"></i>
+					  		<input type="text" class="form-control"  ng-model="phone">
+				    	</div>
+					  	
+					  	
+					</div>
+			    </form>  
+
+  			</div>
+  		</div>
+
+	  	
+  	</div>
+   
+    
+  </body>
+</html>
